@@ -13,7 +13,7 @@ function solution($A, $K, $L) {
         $lTot2 = 0;
         $lTotTemp = 0;
 
-        //Check for if valid calculation for both the apple taker
+        //Check for if valid calculation for both the apple collector
         if($orcLen>=($K+$L)) {
             //Leaving space for L length apple taker at the end of the row
             $lenFor = (($orcLen - $K)+1)-$L;
