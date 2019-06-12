@@ -10,7 +10,7 @@ In an Apple Orchard, all the apple trees are placed in a row. Two apple collecto
 If the total number of trees used by Kane and Lui exceeds total number of trees in the row, then return -1
 
 For example, 
-If $A = [4, 120, 15, 22, 8, 25, 55, 5], which means 4, 120... are the number of apples in the trees; $K = 3 and $L = 2; then Kane will pick 3 trees from 2nd to 4th(120, 15, 22) and Lui will pick 2 trees 6th and 7th(25, 55). and total will be 237, which is the maximum possible number.
+If $A = [4, 120, 15, 22, 8, 25, 55, 5], which means 4, 120... are the number of apples in the trees; $K = 3 and $L = 2; then Kane will pick 3 trees from 2nd to 4th(120, 15, 22) and Lui will pick 2 trees 6th and 7th(25, 55), and total will be 237, which is the maximum possible number.
 If $A = [4, 120, 15, 22], and $K = 3 and $L = 2; then return value should be -1
 
 ## Problem Statement for Solution 2
