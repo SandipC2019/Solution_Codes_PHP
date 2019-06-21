@@ -16,7 +16,6 @@ If $A = [4, 120, 15, 22], and $K = 3 and $L = 2; then return value should be -1
 ## Problem Statement for Solution 2
 Code to return lowest integer(greater than 0) which is not present in an array. If the array elements are negative integer then 1 should be returned.
 
-
 For example, 
 1. If the array is [1, 2, 3, 6, 4], then the return value should be 5
 2. If the array is [-1, -3, -2], then the return value should be 1
@@ -25,7 +24,15 @@ For example,
 Code to return the 'K'th Day after the day 'S', where 'K' is any positive integer and 'S' is the name of the day in below format:
 ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 
-
 For example,
 If the input value set is ("Wed", 2), then return value should be "Fri"
+
+## Problem Statement for Solution 4
+Code to find a position(k) in a string consists of only '(' and ')', where if the string is divided into two parts then the number of '(' or openning bracket in the first part will be equal to number of ')' or closing bracket in the second part.
+Where 0<= k <= n (n is the total length of the string)
+
+For example,
+1. If the input value set is "(())", then  return value should be 2 (as 2 is position starting from 1, where the left su string has 2 openning brackets and right half has same number of closing brackets)
+2. If the input value set is "(())))(", then  return value should be 4
+3. If the input value set is "))", then  return value should be 2
 
